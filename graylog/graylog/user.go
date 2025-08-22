@@ -15,6 +15,8 @@ type (
 		Email string `json:"email,omitempty" v-create:"required"`
 		// a descriptive name for this account, e.g. the full name.
 		FullName string `json:"full_name,omitempty" v-create:"required"`
+		FirstName string `json:"first_name,omitempty"`
+		LastName string `json:"last_name,omitempty"`
 		Password string `json:"password,omitempty" v-create:"required"`
 
 		ID string `json:"id,omitempty"`
@@ -46,6 +48,8 @@ type (
 		Username         string     `json:"username,omitempty" v-update:"required"`
 		Email            *string    `json:"email,omitempty"`
 		FullName         *string    `json:"full_name,omitempty"`
+		FirstName        string     `json:"first_name,omitempty"`
+		LastName         string     `json:"last_name,omitempty"`
 		Password         *string    `json:"password,omitempty"`
 		Timezone         *string    `json:"timezone,omitempty"`
 		SessionTimeoutMs *int       `json:"session_timeout_ms,omitempty"`
@@ -79,6 +83,8 @@ func (user *User) NewUpdateParams() *UserUpdateParams {
 		Username:         user.Username,
 		Email:            ptr.PStr(user.Email),
 		FullName:         ptr.PStr(user.FullName),
+		FirstName:        ptr.PStr(user.FirstName),
+		LastName:         ptr.PStr(user.LastName),
 		Password:         nil,
 		Timezone:         ptr.PStr(user.Timezone),
 		SessionTimeoutMs: ptr.PInt(user.SessionTimeoutMs),
