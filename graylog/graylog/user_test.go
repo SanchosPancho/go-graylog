@@ -2,9 +2,11 @@ package graylog_test
 
 import (
 	"testing"
+	"encoding/json"
 
 	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
 	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
+	"github.com/suzuki-shunsuke/go-set/v2"
 )
 
 func TestUserNewUpdateParams(t *testing.T) {
@@ -24,4 +26,32 @@ func TestUserSetDefaultValues(t *testing.T) {
 	if user.Timezone == "" {
 		t.Fatal("user.Timezone must be set")
 	}
+}
+
+
+func TestUserJSON(t *testing.T) {
+	u := &graylog.User{
+		Username:  "jdoe",
+		Email:     "john.doe@example.com",
+		FirstName: "John",
+		LastName:  "Doe",
+		Password:  "Secret123!",
+		Roles:     set.NewStrSet("Reader"),
+		External:  false,
+	}
+	b, err := json.Marshal(u)
+	if err != nil {
+		t.Fatalf("marshal: %v", err)
+	}
+	s := string(b)
+	if !containsAll(s, `"first_name":"John"`, `"last_name":"Doe"`) {
+		t.Fatalf("missing first/last in json: %s", s)
+	}
+}
+
+func containsAll(s string, subs ...string) bool {
+	for _, sub := range subs {
+		if !strings.Contains(s, sub) { return false }
+	}
+	return true
 }
