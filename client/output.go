@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 // CreateOutput creates a new output.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 // CreateGrokPattern creates a new grok pattern.

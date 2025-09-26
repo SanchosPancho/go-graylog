@@ -9,7 +9,7 @@ import (
 	"github.com/suzuki-shunsuke/flute/flute"
 
 	"github.com/SanchosPancho/go-graylog/client"
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func TestClient_DeleteUserToken(t *testing.T) {

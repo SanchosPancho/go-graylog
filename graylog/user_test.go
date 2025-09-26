@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/SanchosPancho/go-graylog/graylog"
 	"github.com/SanchosPancho/go-graylog/testdata"
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 	"github.com/suzuki-shunsuke/go-set/v2"
 )
 

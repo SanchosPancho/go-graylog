@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 // GetPipelines returns all pipeline.

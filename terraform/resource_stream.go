@@ -3,7 +3,7 @@ package terraform
 import (
 	"context"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 	"github.com/hashicorp/terraform/helper/schema"
 )
 

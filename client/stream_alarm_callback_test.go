@@ -12,8 +12,8 @@ import (
 	"github.com/suzuki-shunsuke/go-set/v6"
 
 	"github.com/SanchosPancho/go-graylog/client"
+	"github.com/SanchosPancho/go-graylog/graylog"
 	"github.com/SanchosPancho/go-graylog/testdata"
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func TestClient_GetStreamAlarmCallbacks(t *testing.T) {

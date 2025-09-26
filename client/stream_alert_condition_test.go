@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/SanchosPancho/go-graylog/client"
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 	"github.com/suzuki-shunsuke/flute/flute"
 )
 

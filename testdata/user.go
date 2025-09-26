@@ -3,7 +3,7 @@ package testdata
 import (
 	"github.com/suzuki-shunsuke/go-set/v6"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func User() *graylog.User {

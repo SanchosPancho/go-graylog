@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/suzuki-shunsuke/go-jsoneq/jsoneq"
 
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func resourceEventNotification() *schema.Resource {

@@ -1,7 +1,7 @@
 package update
 
 import (
-	"github.com/github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func Request() *graylog.EventDefinition {
