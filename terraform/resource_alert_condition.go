@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func resourceAlertCondition() *schema.Resource {

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func TestExtractor_MarshalJSON(t *testing.T) {

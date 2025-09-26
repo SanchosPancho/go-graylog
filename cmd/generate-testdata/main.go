@@ -16,7 +16,7 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/sanity-io/litter"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 type (

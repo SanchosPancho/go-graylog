@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 // GetStreamAlertConditions gets all alert conditions of this stream.

@@ -12,7 +12,7 @@ import (
 	"github.com/suzuki-shunsuke/go-jsoneq/jsoneq"
 	"github.com/suzuki-shunsuke/go-set/v6"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 
 func resourceEventDefinition() *schema.Resource {
