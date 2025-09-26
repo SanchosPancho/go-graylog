@@ -1,11 +1,12 @@
 package graylog_test
 
 import (
-	"testing"
 	"encoding/json"
+	"strings"
+	"testing"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
 	"github.com/suzuki-shunsuke/go-set/v2"
 )
 
@@ -27,7 +28,6 @@ func TestUserSetDefaultValues(t *testing.T) {
 		t.Fatal("user.Timezone must be set")
 	}
 }
-
 
 func TestUserJSON(t *testing.T) {
 	u := &graylog.User{
@@ -51,7 +51,9 @@ func TestUserJSON(t *testing.T) {
 
 func containsAll(s string, subs ...string) bool {
 	for _, sub := range subs {
-		if !strings.Contains(s, sub) { return false }
+		if !strings.Contains(s, sub) {
+			return false
+		}
 	}
 	return true
 }

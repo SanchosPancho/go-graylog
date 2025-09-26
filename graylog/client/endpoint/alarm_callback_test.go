@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/client/endpoint"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/client/endpoint"
 )
 
 func TestEndpoints_AlarmCallbacks(t *testing.T) {

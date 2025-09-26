@@ -54,7 +54,7 @@ func (client *Client) callAPI(
 	req.SetBasicAuth(client.Name(), client.Password())
 	req = req.WithContext(ctx)
 	req.Header.Set("Content-Type", "application/json")
-	// https://github.com/suzuki-shunsuke/go-graylog/issues/42
+	// https://github.com/SanchosPancho/go-graylog/issues/42
 	req.Header.Set("X-Requested-By", client.xRequestedBy)
 	hc := client.httpClient
 	if hc == nil {

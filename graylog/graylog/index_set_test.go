@@ -3,8 +3,8 @@ package graylog_test
 import (
 	"testing"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
 )
 
 func TestIndexSetNewUpdateParams(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/SanchosPancho/go-graylog/v11/graylog/client"
 	"github.com/suzuki-shunsuke/flute/flute"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/client"
 )
 
 func TestClient_GetLDAPGroups(t *testing.T) {

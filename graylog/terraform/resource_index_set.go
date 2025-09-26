@@ -5,8 +5,8 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/util"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/util"
 )
 
 func resourceIndexSet() *schema.Resource {

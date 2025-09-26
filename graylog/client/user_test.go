@@ -10,9 +10,9 @@ import (
 	"github.com/suzuki-shunsuke/flute/flute"
 	"github.com/suzuki-shunsuke/go-set/v6"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/client"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/client"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
 )
 
 func TestClient_DeleteUser(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
 )
 
 // GetIndexSets returns a list of all index sets.

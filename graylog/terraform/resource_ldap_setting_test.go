@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
 )
 
 func TestAccLDAPSetting(t *testing.T) {

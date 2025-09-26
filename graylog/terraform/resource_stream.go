@@ -3,8 +3,8 @@ package terraform
 import (
 	"context"
 
+	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/graylog"
 )
 
 func resourceStream() *schema.Resource {

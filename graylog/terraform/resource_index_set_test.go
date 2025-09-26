@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testdata"
-	"github.com/suzuki-shunsuke/go-graylog/v11/graylog/testutil"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/v11/graylog/testutil"
 )
 
 func TestAccIndexSet(t *testing.T) {
