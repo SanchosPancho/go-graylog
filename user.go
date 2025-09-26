@@ -14,10 +14,10 @@ type (
 		// the contact email address
 		Email string `json:"email,omitempty" v-create:"required"`
 		// a descriptive name for this account, e.g. the full name.
-		FullName string `json:"full_name,omitempty" v-create:"required"`
-		FirstName string `json:"first_name,omitempty"`
-		LastName string `json:"last_name,omitempty"`
-		Password string `json:"password,omitempty" v-create:"required"`
+		FullName  string `json:"full_name,omitempty" v-create:"required"`
+		FirstName string `json:"first_name,omitempty" v-create:"required"`
+		LastName  string `json:"last_name,omitempty" v-create:"required"`
+		Password  string `json:"password,omitempty" v-create:"required"`
 
 		ID string `json:"id,omitempty"`
 		// the timezone to use to display times, or leave it as it is to use the system's default.
@@ -48,8 +48,8 @@ type (
 		Username         string     `json:"username,omitempty" v-update:"required"`
 		Email            *string    `json:"email,omitempty"`
 		FullName         *string    `json:"full_name,omitempty"`
-		FirstName        string     `json:"first_name,omitempty"`
-		LastName         string     `json:"last_name,omitempty"`
+		FirstName        *string    `json:"first_name,omitempty"`
+		LastName         *string    `json:"last_name,omitempty"`
 		Password         *string    `json:"password,omitempty"`
 		Timezone         *string    `json:"timezone,omitempty"`
 		SessionTimeoutMs *int       `json:"session_timeout_ms,omitempty"`
