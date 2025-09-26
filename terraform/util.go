@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/suzuki-shunsuke/go-jsoneq/jsoneq"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/client"
+	"github.com/SanchosPancho/go-graylog/client"
 )
 
 func schemaDiffSuppressJSONString(k, oldV, newV string, d *schema.ResourceData) bool {

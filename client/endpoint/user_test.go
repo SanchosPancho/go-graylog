@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/client/endpoint"
+	"github.com/SanchosPancho/go-graylog/client/endpoint"
 )
 
 func TestEndpoints_Users(t *testing.T) {

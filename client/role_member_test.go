@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/client"
+	"github.com/SanchosPancho/go-graylog/client"
 	"github.com/stretchr/testify/require"
 	"github.com/suzuki-shunsuke/flute/flute"
 )

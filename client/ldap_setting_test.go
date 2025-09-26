@@ -9,7 +9,7 @@ import (
 	"github.com/suzuki-shunsuke/flute/flute"
 	"github.com/suzuki-shunsuke/go-set/v6"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/client"
+	"github.com/SanchosPancho/go-graylog/client"
 	"github.com/SanchosPancho/go-graylog/v11/graylog/graylog"
 )
 
