@@ -1,6 +1,6 @@
-module github.com/SanchosPancho/go-graylog/graylog
+module github.com/SanchosPancho/go-graylog
 
-go 1.14
+go 1.21
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.1.1
