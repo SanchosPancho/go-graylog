@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/suzuki-shunsuke/flute/flute"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testdata"
 )
 
 func TestAccStream(t *testing.T) {

@@ -3,7 +3,7 @@ package graylog_test
 import (
 	"testing"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testdata"
 )
 
 func TestRoleNewUpdateParams(t *testing.T) {

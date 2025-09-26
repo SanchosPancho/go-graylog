@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/util"
+	"github.com/SanchosPancho/go-graylog/util"
 	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 

@@ -10,9 +10,9 @@ import (
 	"github.com/suzuki-shunsuke/flute/flute"
 
 	"github.com/SanchosPancho/go-graylog/client"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata/event_definition/create"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata/event_definition/get"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata/event_definition/update"
+	"github.com/SanchosPancho/go-graylog/testdata/event_definition/create"
+	"github.com/SanchosPancho/go-graylog/testdata/event_definition/get"
+	"github.com/SanchosPancho/go-graylog/testdata/event_definition/update"
 )
 
 func TestClient_CreateEventDefinition(t *testing.T) {

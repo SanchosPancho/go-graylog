@@ -3,8 +3,8 @@ package terraform
 import (
 	"testing"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testutil"
+	"github.com/SanchosPancho/go-graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testutil"
 )
 
 func TestAccStreamRule(t *testing.T) {

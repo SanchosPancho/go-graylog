@@ -11,7 +11,7 @@ import (
 	"github.com/suzuki-shunsuke/go-set/v6"
 
 	"github.com/SanchosPancho/go-graylog/client"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testdata"
 	"github.com/github.com/SanchosPancho/go-graylog/graylog"
 )
 

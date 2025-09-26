@@ -11,7 +11,7 @@ import (
 	"github.com/suzuki-shunsuke/flute/flute"
 
 	"github.com/SanchosPancho/go-graylog/client"
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testdata"
 )
 
 func TestClient_GetIndexSets(t *testing.T) {

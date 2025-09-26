@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/SanchosPancho/go-graylog/v11/graylog/testdata"
+	"github.com/SanchosPancho/go-graylog/testdata"
 )
 
 func TestAccDashboard(t *testing.T) {
