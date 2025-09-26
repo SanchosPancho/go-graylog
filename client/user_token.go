@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 )
 
 // CreateUserToken generates a new access token for a user

@@ -1,7 +1,7 @@
 package create
 
 import (
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 	"github.com/suzuki-shunsuke/go-set/v6"
 )
 

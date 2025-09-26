@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 )
 
 // GetAlert returns an alert.

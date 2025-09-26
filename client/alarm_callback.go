@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 )
 
 // GetAlarmCallbacksContext returns all alarm callbacks.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 )
 
 // GetIndexSetStats returns a given Index Set statistics.

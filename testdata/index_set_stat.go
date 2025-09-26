@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"github.com/SanchosPancho/go-graylog/graylog"
+	"github.com/SanchosPancho/go-graylog"
 )
 
 func IndexSetStats() graylog.IndexSetStats {
