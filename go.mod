@@ -1,4 +1,4 @@
-module github.com/suzuki-shunsuke/go-graylog/v11
+module github.com/SanchosPancho/go-graylog
 
 go 1.14
 
