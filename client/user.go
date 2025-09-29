@@ -11,9 +11,6 @@ import (
 func (client *Client) CreateUser(
 	ctx context.Context, user *graylog.User,
 ) (*ErrorInfo, error) {
-	// required: username, password, email, full_name, permissions
-	// allowed: startpage, permissions, username, timezone, password, email, session_timeout_ms, full_name, roles
-	// response 201 no content
 	if user == nil {
 		return nil, errors.New("user is nil")
 	}
@@ -22,7 +19,6 @@ func (client *Client) CreateUser(
 		"password":    user.Password,
 		"permissions": user.Permissions,
 		"email":       user.Email,
-		"full_name":   user.FullName,
 		"first_name":  user.FirstName,
 		"last_name":   user.LastName,
 		"roles":       user.Roles,
