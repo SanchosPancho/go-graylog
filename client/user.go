@@ -23,6 +23,8 @@ func (client *Client) CreateUser(
 		"permissions": user.Permissions,
 		"email":       user.Email,
 		"full_name":   user.FullName,
+		"first_name":  user.FirstName,
+		"last_name":   user.LastName,
 		"roles":       user.Roles,
 	}
 	if user.SessionTimeoutMs != 0 {
